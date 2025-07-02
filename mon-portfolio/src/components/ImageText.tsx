@@ -10,9 +10,9 @@ export default function ImageText({ imageSrc, altText, children }: ImageTextProp
       <img
         src={imageSrc}
         alt={altText}
-        className="w-1/2 object-cover border-4 border-purple-500 shadow-[0_0_25px_5px_rgba(168,85,247,0.7)] "
+        className="w-2/5 max-w-sm object-cover border-4 border-[#F2DCB3] shadow-[0_0_25px_5px_#A67153]"
       />
-      <div className="w-1/2 text-lg">
+      <div className="w-3/5 text-lg">
         {children}
       </div>
     </div>
