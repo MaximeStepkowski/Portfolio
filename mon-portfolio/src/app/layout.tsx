@@ -5,17 +5,34 @@ import Footer from '@/components/Footer';
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr">
-      <body className="font-sans" style={{ backgroundColor: "rgb(31, 20, 0)" }}>
+      <body className="font-sans">
         <div className="flex flex-col min-h-screen">
-          <header className="py-4 mb-8 shadow" style={{ backgroundColor: "rgb(10, 7, 0)" }}>
+          <header
+            className="py-4 mb-8"
+            style={{
+              backgroundColor: "#000"
+            }}
+          >
             <NavBar />
           </header>
           <div className="flex-1 flex justify-center">
-            <main className="bg-black w-full max-w-4xl min-h-[70vh] p-4 mx-2 rounded-xl shadow-lg">
+            <main
+              className="bg-black w-full max-w-4xl min-h-[70vh] p-4 mx-2 rounded-xl shadow-lg"
+              style={{
+                boxShadow: "0 4px 32px 0 #b2cc4c"
+              }}
+            >
               {children}
             </main>
           </div>
-          <Footer />
+          <div className="pb-8" />
+          <footer
+            style={{
+              backgroundColor: "#000"
+            }}
+          >
+            <Footer />
+          </footer>
         </div>
       </body>
     </html>

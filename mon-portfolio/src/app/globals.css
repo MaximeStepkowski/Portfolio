@@ -1,10 +1,10 @@
 @import "tailwindcss";
 
 :root {
-  --background: #fff;
+  --background: #c9e560;
   --foreground: #171717;
   --brown-700: #6d4c41;
-  --brown-800: #4e342e;
+  --brown-800: #c9e560;
   --brown-900: #3e2723;
   --brown-950: #23160f;
 }
@@ -24,9 +24,13 @@
 }
 
 body {
-  background: var(--brown-800);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #b2cc4c;
+  background-image: url('/fond_page/background-theme.svg');
+  background-repeat: repeat;
+  background-position: top left;
+  background-size: cover;
 }
 
 /* Ajoute la classe utilitaire pour Tailwind si besoin */
@@ -34,7 +38,7 @@ body {
   background-color: var(--brown-700);
 }
 .bg-brown-800 {
-  background-color: var(--brown-800);
+  background-color: #c9e560;
 }
 .bg-brown-900 {
   background-color: var(--brown-900);

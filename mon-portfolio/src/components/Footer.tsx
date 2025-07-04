@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <footer
       className="w-full py-6 mt-8 text-white flex flex-col items-center gap-2"
-      style={{ backgroundColor: "rgb(10, 7, 0)" }}
+      style={{ backgroundColor: "#000" }}
     >
       <div className="flex flex-wrap justify-center gap-6 items-center">
         <a
