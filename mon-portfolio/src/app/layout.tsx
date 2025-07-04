@@ -17,7 +17,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </header>
           <div className="flex-1 flex justify-center">
             <main
-              className="bg-black w-full max-w-4xl min-h-[70vh] p-4 mx-2 rounded-xl shadow-lg"
+              className="bg-black w-full max-w-6xl min-h-[70vh] p-8 mx-2 rounded-xl shadow-lg"
               style={{
                 boxShadow: "0 4px 32px 0 #b2cc4c"
               }}
