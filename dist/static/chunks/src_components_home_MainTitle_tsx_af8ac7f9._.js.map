@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/maxxo/OneDrive/Bureau/monPortfolio/Portfolio/src/components/home/MainTitle.tsx"],"sourcesContent":["'use client';\r\n\r\ntype MainTitleProps = {\r\n  children: React.ReactNode;\r\n};\r\n\r\nexport default function MainTitle({ children }: MainTitleProps) {\r\n  return (\r\n    <h1 className=\"text-5xl font-extrabold text-center text-white mb-8\">\r\n      {children}\r\n    </h1>\r\n  );\r\n}"],"names":[],"mappings":";;;;AAAA;;AAMe,SAAS,UAAU,EAAE,QAAQ,EAAkB;IAC5D,qBACE,6LAAC;QAAG,WAAU;kBACX;;;;;;AAGP;KANwB","debugId":null}}]
+}

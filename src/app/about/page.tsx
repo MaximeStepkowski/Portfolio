@@ -2,10 +2,46 @@ import Section from '@/components/about/Section';
 import SectionTitle from '@/components/about/SectionTitle';
 import SectionList from '@/components/about/SectionList';
 import SectionParagraph from '@/components/about/SectionParagraph';
+import LanguageGrid from '@/components/about/LanguageGrid';
 
 export default function AboutPage() {
   return (
     <div className="space-y-10">
+      <Section>
+        <SectionTitle>Qui suis-je ?</SectionTitle>
+        <div className="flex flex-col gap-4">
+          <SectionParagraph>
+            Je m'appelle Maxime, un étudiant passionné par l'informatique, curieux de nature et toujours avide de nouveaux apprentissages. Autodidacte dans l’âme, j’aime comprendre comment fonctionnent les systèmes et trouver des solutions concrètes à des problèmes complexes. Ce qui me motive au quotidien, c’est le sentiment de progresser et d’acquérir de nouvelles compétences, en particulier dans les domaines techniques. J'accorde aussi une grande importance à la rigueur, à l'autonomie, et à la créativité dans mes projets.
+          </SectionParagraph>
+        </div>
+      </Section>
+
+      <Section>
+        <SectionTitle>Mes loisirs</SectionTitle>
+        <div className="flex flex-col gap-4">
+          <SectionParagraph>
+            En dehors de mes études, je consacre une partie de mon temps libre au volley-ball, que je pratique depuis plusieurs années. Ce sport m’a appris l’esprit d’équipe, la persévérance et la gestion du stress. J’apprécie aussi le monde du jeu vidéo, notamment les jeux de stratégie ou de simulation, qui stimulent ma réflexion et ma logique. Enfin, je m’intéresse au développement personnel et à la technologie sous toutes ses formes, ce qui alimente ma soif d'apprendre au quotidien.
+          </SectionParagraph>
+        </div>
+      </Section>
+
+      <Section>
+        <SectionTitle>Langages de programmation</SectionTitle>
+        <LanguageGrid />
+      </Section>
+
+      <Section>
+        <SectionTitle>Langues parlées</SectionTitle>
+        <SectionList
+          title="Compétences linguistiques :"
+          items={[
+            "Français : langue maternelle",
+            "Anglais : bon niveau (B2/C1)",
+            "Espagnol : niveau scolaire (B1)",
+          ]}
+        />
+      </Section>
+
       <Section>
         <SectionTitle>Pourquoi l’informatique</SectionTitle>
         <div className="flex flex-col gap-4">
