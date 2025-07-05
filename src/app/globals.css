@@ -26,6 +26,11 @@
 body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #b2cc4c;
+  background-image: url('/Portfolio/fond_page/background-theme.svg');
+  background-repeat: repeat;
+  background-position: top left;
+  background-size: cover;
 }
 
 /* Ajoute la classe utilitaire pour Tailwind si besoin */
