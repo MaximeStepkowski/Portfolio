@@ -142,55 +142,55 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 const languages = [
     {
         name: 'Python',
-        icon: '/languages/python.svg'
+        icon: '/Portfolio/languages/python.svg'
     },
     {
         name: 'Java',
-        icon: '/languages/java.svg'
+        icon: '/Portfolio/languages/java.svg'
     },
     {
         name: 'JavaScript',
-        icon: '/languages/javascript.svg'
+        icon: '/Portfolio/languages/javascript.svg'
     },
     {
         name: 'TypeScript',
-        icon: '/languages/typescript.svg'
+        icon: '/Portfolio/languages/typescript.svg'
     },
     {
         name: 'Ansible',
-        icon: '/languages/ansible.svg'
+        icon: '/Portfolio/languages/ansible.svg'
     },
     {
         name: 'SQL',
-        icon: '/languages/sql.svg'
+        icon: '/Portfolio/languages/sql.svg'
     },
     {
         name: 'HTML',
-        icon: '/languages/html.svg'
+        icon: '/Portfolio/languages/html.svg'
     },
     {
         name: 'CSS',
-        icon: '/languages/css.svg'
+        icon: '/Portfolio/languages/css.svg'
     },
     {
         name: 'vscode',
-        icon: '/languages/vscode.svg'
+        icon: '/Portfolio/languages/vscode.svg'
     },
     {
         name: 'shell',
-        icon: '/languages/shell.svg'
+        icon: '/Portfolio/languages/shell.svg'
     },
     {
         name: 'intellij',
-        icon: '/languages/intellij.svg'
+        icon: '/Portfolio/languages/intellij.svg'
     },
     {
         name: 'Git',
-        icon: '/languages/git.svg'
+        icon: '/Portfolio/languages/git.svg'
     },
     {
         name: 'nextjs',
-        icon: '/languages/nextjs.svg'
+        icon: '/Portfolio/languages/nextjs.svg'
     }
 ];
 function LanguageGrid() {

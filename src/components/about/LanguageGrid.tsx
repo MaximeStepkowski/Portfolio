@@ -1,19 +1,19 @@
 import Image from 'next/image';
 
 const languages = [
-  { name: 'Python', icon: '/languages/python.svg' }, 
-  { name: 'Java', icon: '/languages/java.svg' },
-  { name: 'JavaScript', icon: '/languages/javascript.svg' },
-  { name: 'TypeScript', icon: '/languages/typescript.svg' },
-  { name: 'Ansible', icon: '/languages/ansible.svg' },
-  { name: 'SQL', icon: '/languages/sql.svg' },
-  { name: 'HTML', icon: '/languages/html.svg' },
-  { name: 'CSS', icon: '/languages/css.svg' },
-  { name: 'vscode', icon: '/languages/vscode.svg' },
-  { name: 'shell', icon: '/languages/shell.svg' },
-  { name: 'intellij', icon: '/languages/intellij.svg' },
-  { name: 'Git', icon: '/languages/git.svg' },
-  { name: 'nextjs', icon: '/languages/nextjs.svg' }
+  { name: 'Python', icon: '/Portfolio/languages/python.svg' }, 
+  { name: 'Java', icon: '/Portfolio/languages/java.svg' },
+  { name: 'JavaScript', icon: '/Portfolio/languages/javascript.svg' },
+  { name: 'TypeScript', icon: '/Portfolio/languages/typescript.svg' },
+  { name: 'Ansible', icon: '/Portfolio/languages/ansible.svg' },
+  { name: 'SQL', icon: '/Portfolio/languages/sql.svg' },
+  { name: 'HTML', icon: '/Portfolio/languages/html.svg' },
+  { name: 'CSS', icon: '/Portfolio/languages/css.svg' },
+  { name: 'vscode', icon: '/Portfolio/languages/vscode.svg' },
+  { name: 'shell', icon: '/Portfolio/languages/shell.svg' },
+  { name: 'intellij', icon: '/Portfolio/languages/intellij.svg' },
+  { name: 'Git', icon: '/Portfolio/languages/git.svg' },
+  { name: 'nextjs', icon: '/Portfolio/languages/nextjs.svg' }
 ];
 
 export default function LanguageGrid() {
