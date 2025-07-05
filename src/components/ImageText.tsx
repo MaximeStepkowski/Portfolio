@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type ImageTextProps = {
   imageSrc: string;
   altText: string;
@@ -7,7 +9,7 @@ type ImageTextProps = {
 export default function ImageText({ imageSrc, altText, children }: ImageTextProps) {
   return (
     <div className="max-w-6xl mx-auto px-6 flex items-center gap-8 py-8">
-      <img
+      <Image
         src={imageSrc}
         alt={altText}
         className="w-2/5 max-w-sm object-cover border-4 border-[#c9e560] shadow-[0_0_25px_5px_#c9e560]"
