@@ -2,10 +2,7 @@ import Image from 'next/image';
 
 const languages = [
   { name: 'Python', icon: '/Portfolio/languages/python.svg' }, 
-  { name: 'Java', icon: '/Portfolio/languages/java.svg' },
-  { name: 'JavaScript', icon: '/Portfolio/languages/javascript.svg' },
   { name: 'TypeScript', icon: '/Portfolio/languages/typescript.svg' },
-  { name: 'Ansible', icon: '/Portfolio/languages/ansible.svg' },
   { name: 'SQL', icon: '/Portfolio/languages/sql.svg' },
   { name: 'HTML', icon: '/Portfolio/languages/html.svg' },
   { name: 'CSS', icon: '/Portfolio/languages/css.svg' },
@@ -17,7 +14,7 @@ const languages = [
   { name: 'docker', icon: '/Portfolio/languages/docker.svg' },
 ];
 
-export default function LanguageGrid() {
+export default function LanguageGridMin() {
   return (
     <div className="flex flex-wrap justify-center gap-6 py-4">
       {languages.map((lang) => (

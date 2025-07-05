@@ -4,6 +4,6 @@ type SectionParagraphProps = {
 
 export default function SectionParagraph({ children }: SectionParagraphProps) {
   return (
-    <p className="mb-3 text-white">{children}</p>
+    <p className="mb-6 text-white">{children}</p>
   );
 }
