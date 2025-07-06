@@ -1,8 +1,18 @@
 import ProjectBox from '@/components/ProjectBox'; // Importe le composant ProjectBox
 import Section from '@/components/Section';
 import SectionParagraph from '@/components/SectionParagraph';
+import DynamicTypeAnimation from '@/components/TypeAnimationVar';
 
 export default function ProjectsPage() {
+
+  const profileSequence = [
+    'Plus de projets à venir .',
+    500,
+    'Plus de projets à venir ..',
+    500,
+    'Plus de projets à venir ...',
+    500
+  ];
 
   const projects = [
     {
@@ -30,7 +40,7 @@ export default function ProjectsPage() {
         Cliquez sur "En savoir plus" pour une description détaillée et les technologies utilisées.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 px-4 pb-8">
         {projects.map(project => (
           <ProjectBox
             key={project.id}
@@ -43,7 +53,7 @@ export default function ProjectsPage() {
 
       <Section>
         <SectionParagraph>
-          De nombreux projets à venir ...
+          <DynamicTypeAnimation sequence={profileSequence} />
         </SectionParagraph>
       </Section>
     </section>

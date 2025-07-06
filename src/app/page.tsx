@@ -5,12 +5,26 @@ import TitleText from '@/components/TitleText';
 import Section from '@/components/Section';
 import SectionParagraph from '@/components/SectionParagraph';
 import SectionTitle from '@/components/SectionTitle';
+import DynamicTypeAnimation from '@/components/TypeAnimationVar';
 
 export default function HomePage() {
+  const profileSequence = [
+    'Je suis un étudiant français',
+    1500,
+    'Je suis un développeur passionné',
+    1500,
+    'Je suis un passionné d\'automobile',
+    1500,
+    'Je suis un amateur de jeux vidéo',
+    1500
+  ];
+
+
   return (
     <>
       <Title>Bienvenue sur le portfolio de</Title>
       <MainTitle>MAXIME STEPKOWSKI</MainTitle>
+      <DynamicTypeAnimation sequence={profileSequence} />
       <ImageText imageSrc="/Portfolio/photos/moi.jpg" altText="Image">
         <h1 className="text-3xl font-bold text-white mb-4">Qui suis-je brievement ?</h1>
         <SectionParagraph>
