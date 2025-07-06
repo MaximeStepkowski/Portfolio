@@ -1,11 +1,11 @@
-import './styles/globals.css';
+import './globals.css';
 import NavBar from '@/components/NavBar';
 import Footer from '@/components/Footer';
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr">
-      <body className="font-sans bg-[#c9e560] bg-repeat bg-top bg-left bg-cover bg-[url('/Portfolio/background-theme.svg')]">
+      <body className="font-sans bg-[#c9e560] bg-repeat bg-top bg-left bg-cover">
         <div className="flex flex-col min-h-screen">
           <header
             className="py-4 mb-8"
