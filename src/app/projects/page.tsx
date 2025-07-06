@@ -1,4 +1,6 @@
 import ProjectBox from '@/components/ProjectBox'; // Importe le composant ProjectBox
+import Section from '@/components/Section';
+import SectionParagraph from '@/components/SectionParagraph';
 
 export default function ProjectsPage() {
 
@@ -38,6 +40,12 @@ export default function ProjectsPage() {
           />
         ))}
       </div>
+
+      <Section>
+        <SectionParagraph>
+          De nombreux projets à venir ...
+        </SectionParagraph>
+      </Section>
     </section>
   );
 }

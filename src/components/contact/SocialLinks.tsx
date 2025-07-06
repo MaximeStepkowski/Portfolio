@@ -21,7 +21,7 @@ export default function SocialLinks({ linkedinUrl, githubUrl, className }: Socia
           rel="noopener noreferrer"
           className="inline-flex items-center bg-[#c9e560] hover:bg-[#b2cc4c] text-black font-bold py-3 px-6 rounded-lg text-lg transition duration-300 ease-in-out shadow-lg hover:shadow-xl"
         >
-          <img src="/app/linkedin.svg" alt="LinkedIn Logo" className="w-6 h-6 mr-3" />
+          <img src="/Portfolio/app/linkedin.svg" alt="LinkedIn Logo" className="w-6 h-6 mr-3" />
           LinkedIn
         </Link>
       )}
@@ -32,7 +32,7 @@ export default function SocialLinks({ linkedinUrl, githubUrl, className }: Socia
           rel="noopener noreferrer"
           className="inline-flex items-center bg-[#c9e560] hover:bg-[#b2cc4c] text-black font-bold py-3 px-6 rounded-lg text-lg transition duration-300 ease-in-out shadow-lg hover:shadow-xl"
         >
-          <img src="/app/github.svg" alt="GitHub Logo" className="w-6 h-6 mr-3" />
+          <img src="/Portfolio/app/github.svg" alt="GitHub Logo" className="w-6 h-6 mr-3" />
           GitHub
         </Link>
       )}
