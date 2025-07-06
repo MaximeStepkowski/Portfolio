@@ -51,7 +51,7 @@ export default function PortfolioPage() {
         <KeyValueList
           items={[
             { title: "Maîtrise de Next.js", description: "Approfondir mes compétences en Next.js, notamment les concepts de rendu, la configuration du site pour le rendre stratique et l'optimisation des performances." },
-            { title: "Design Responsive", description: "Concevoir un site entièrement responsive et adaptable à différentes tailles d'écran en utilisant Tailwind CSS." },
+            { title: "Design Responsive", description: "Concevoir un site entièrement 'responsive' et adaptable à différentes tailles d'écran en utilisant Tailwind CSS." },
             { title: "Optimisation de l'Expérience Utilisateur", description: "Mettre en œuvre les meilleures pratiques pour l'UX/UI, afin de créer un portfolio intuitif et agréable à parcourir." },
             { title: "Autonomie du Projet", description: "Gérer l'intégralité du cycle de vie du projet, de la conception initiale au déploiement final." },
             { title: "Affinement de la Présentation", description: "Apprendre à synthétiser et à présenter mes projets et compétences de manière professionnelle et percutante." },
