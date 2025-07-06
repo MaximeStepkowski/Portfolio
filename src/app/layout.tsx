@@ -5,7 +5,7 @@ import Footer from '@/components/Footer';
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="fr">
-      <body className="font-sans">
+      <body className="font-sans background-[#b2cc4c] bg-[url('/fond_page/background-theme.svg')] bg-repeat bg-top-left bg-cover">
         <div className="flex flex-col min-h-screen">
           <header
             className="py-4 mb-8"

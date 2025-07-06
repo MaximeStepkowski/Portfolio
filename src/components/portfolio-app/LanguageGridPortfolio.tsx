@@ -1,24 +1,16 @@
 import Image from 'next/image';
 
 const languages = [
-  { name: 'Python', icon: '/Portfolio/languages/python.svg' }, 
-  { name: 'Java', icon: '/Portfolio/languages/java.svg' },
-  { name: 'JavaScript', icon: '/Portfolio/languages/javascript.svg' },
   { name: 'TypeScript', icon: '/Portfolio/languages/typescript.svg' },
-  { name: 'Ansible', icon: '/Portfolio/languages/ansible.svg' },
-  { name: 'SQL', icon: '/Portfolio/languages/sql.svg' },
   { name: 'HTML', icon: '/Portfolio/languages/html.svg' },
   { name: 'Tailwind / CSS', icon: '/Portfolio/languages/css.svg' },
   { name: 'VSCode', icon: '/Portfolio/languages/vscode.svg' },
-  { name: 'Shell', icon: '/Portfolio/languages/shell.svg' },
-  { name: 'IntelliJ', icon: '/Portfolio/languages/intellij.svg' },
   { name: 'Git', icon: '/Portfolio/languages/git.svg' },
   { name: 'Nextjs', icon: '/Portfolio/languages/nextjs.svg' },
-  { name: 'Docker', icon: '/Portfolio/languages/docker.svg' },
   { name: 'Procreate', icon: '/Portfolio/languages/procreate.png' }
 ];
 
-export default function LanguageGrid() {
+export default function LanguageGridMin() {
   return (
     <div className="flex flex-wrap justify-center gap-6 py-4">
       {languages.map((lang) => (

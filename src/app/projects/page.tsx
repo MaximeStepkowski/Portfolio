@@ -6,20 +6,14 @@ export default function ProjectsPage() {
     {
       id: 1,
       title: "Application de réservation de Vélib",
-      description: "Une brève description de mon premier projet, axée sur les fonctionnalités clés et les technologies utilisées.",
+      description: "La SAE Vélib était un projet de deuxième année de BUT Informatique où, avec une équipe, j'ai développé une application web et mobile de réservation de vélos en libre-service. L'objectif était de créer une solution complète et modulaire, incluant une API REST sécurisée (Django, PostgreSQL), et des interfaces utilisateur (Next.js, Flutter), le tout conteneurisé avec Docker.",
       link: "/SAEVlib"
     },
     {
       id: 2,
       title: "Application de Portfolio",
-      description: "Développement d'une application de portfolio dynamique pour présenter mes compétences et réalisations en développement web.",
+      description: "Pour la création de ce portfolio, j'ai décidé d'utiliser next.js afin de mettre en application tout ce que j'ai appris sur ce framework durant la SAE 3.01. J'ai ainsi pu mettre en pratique mes nouvelles connaissances et mes nouvelles competences. Je compte encore améliorer ce portfolio dans le futur, notamment en ajoutant des projets supplémentaires et en améliorant la qualité du code.",
       link: "/portfolio-app"
-    },
-    {
-      id: 3,
-      title: "Site E-commerce Innovant",
-      description: "Création d'un site de commerce électronique complet avec gestion des produits, panier d'achat et système de paiement sécurisé.",
-      link: "/projets/e-commerce-site"
     }
   ];
 
@@ -34,7 +28,7 @@ export default function ProjectsPage() {
         Cliquez sur "En savoir plus" pour une description détaillée et les technologies utilisées.
       </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 px-4">
         {projects.map(project => (
           <ProjectBox
             key={project.id}

@@ -12,6 +12,8 @@ export default function ImageText({ imageSrc, altText, children }: ImageTextProp
       <Image
         src={imageSrc}
         alt={altText}
+        width={500}
+        height={500}
         className="w-2/5 max-w-sm object-cover border-4 border-[#c9e560] shadow-[0_0_25px_5px_#c9e560]"
       />
       <div className="w-3/5 text-lg p-6 ">

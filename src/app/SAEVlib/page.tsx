@@ -1,9 +1,9 @@
-import Section from '@/components/about/Section';
-import SectionTitle from '@/components/about/SectionTitle';
-import SectionParagraph from '@/components/about/SectionParagraph';
+import Section from '@/components/Section';
+import SectionTitle from '@/components/SectionTitle';
+import SectionParagraph from '@/components/SectionParagraph';
 import KeyValueList from '@/components/KeyValueList';
-import LanguageGridMin from '@/components/SAEVlib/LanguageGridMin';
-import ProjectRepoButton from '@/components/SAEVlib/ProjectRepoButton';
+import LanguageGridMin from '@/components/SAEVlib/LanguageGridSaeVlib';
+import ProjectRepoButton from '@/components/ProjectRepoButton';
 
 export default function VelibProjectPage() {
   return (

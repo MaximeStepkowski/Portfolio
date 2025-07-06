@@ -1,7 +1,7 @@
-import Section from '@/components/about/Section';
-import SectionTitle from '@/components/about/SectionTitle';
+import Section from '@/components/Section';
+import SectionTitle from '@/components/SectionTitle';
 import SectionList from '@/components/about/SectionList';
-import SectionParagraph from '@/components/about/SectionParagraph';
+import SectionParagraph from '@/components/SectionParagraph';
 import LanguageGrid from '@/components/about/LanguageGrid';
 
 export default function AboutPage() {
@@ -20,7 +20,16 @@ export default function AboutPage() {
         <SectionTitle>Mes loisirs</SectionTitle>
         <div className="flex flex-col gap-4">
           <SectionParagraph>
-            En dehors de mes études, je consacre une partie de mon temps libre au volley-ball, que je pratique depuis plusieurs années. Ce sport m’a appris l’esprit d’équipe, la persévérance et la gestion du stress. J’apprécie aussi le monde du jeu vidéo, notamment les jeux de stratégie ou de simulation, qui stimulent ma réflexion et ma logique. Enfin, je m’intéresse au développement personnel et à la technologie sous toutes ses formes, ce qui alimente ma soif d'apprendre au quotidien.
+            En dehors de mes études, je consacre une partie de mon temps libre au dessin numérique. J'aime particulierement dessiner pour moi, que ce soit des personnages fictifs, réels, des paysages ou encore des logos d'enseignes pour mes amis. J'adore explorer tout ce qui touche de prêt ou de loin à la création numérique, que ce soit le développement, le design, la photographie, le dessin ou encore la vidéo. 
+          </SectionParagraph>
+          <SectionParagraph>
+            J'aime énormément le monde automobile, en particulier les voitures de sport et de collection. J'apprécie la mécanique, l'esthétique des véhicules et l'ingénierie qui les sous-tend. J'aime aussi participer à des événements automobiles, que ce soit pour admirer des voitures anciennes ou modernes, les prendre en photo ou pour discuter avec d'autres passionnés. Je regarde tous les Grand Prix de Formule 1, et je suis particulièrement intéressé par les aspects techniques des voitures, les stratégies de course et l'évolution des technologies dans ce domaine.
+          </SectionParagraph>
+          <SectionParagraph>  
+            De mon côté je pratique le simracing, particulierement de manière compétitive, ce qui me permet de pouvoir viser des objectifs de performance et de m'améliorer constamment.
+          </SectionParagraph>
+          <SectionParagraph>
+            J’aime aussi le volley-ball, que j'au pratiqué pendant plusieurs années. Ce sport m’a appris l’esprit d’équipe, la persévérance et la gestion du stress. J’apprécie aussi le monde du jeu vidéo, notamment les jeux de stratégie ou de simulation, qui stimulent ma réflexion et ma logique. Enfin, je m’intéresse au développement personnel et à la technologie sous toutes ses formes, ce qui alimente ma soif d'apprendre au quotidien.
           </SectionParagraph>
         </div>
       </Section>
